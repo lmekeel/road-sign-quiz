@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Road Sign Quiz</string>
+
+    <string name="option1">Merge Left</string>
+    <string name="option2">Roundabout</string>
+    <string name="option3">Stop Sign</string>
+    <string name="option4">Stop Sign Ahead</string>
+    <string name="option5">U-turn Prohibited</string>
+    <string name="option6">Winding Road</string>
+    <string name="option7">Yield Sign</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="road_sign_quiz">Road Sign Quiz</string>
+    <string name="question_number_1">Question Number 1.</string>
+    <string name="guess_the_road_sign">Guess the road sign!</string>
+    <string name="option_1">Option 1</string>
+    <string name="option_3">Option 3</string>
+    <string name="option_2">Option 2</string>
+    <string name="option_4">Option 4</string>
+    <string name="submit_answer">Submit Answer</string>
+    <string name="todo">TODO</string>
+</resources>
