@@ -66,7 +66,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 score++;
             }
             currentQuestionIndex ++;
-            questionNumberView.setText("Question " + (currentQuestionIndex + 1)+ " out of " + numberOfQuestions);
+            int questionNum = currentQuestionIndex + 1;
+            if(questionNum <= 7){
+                questionNumberView.setText("Question " + questionNum + " out of " + numberOfQuestions);
+            }else{
+                questionNumberView.setText("Question 7 out of " + numberOfQuestions);
+            }
             setNewQuestion();
 
         }else{
